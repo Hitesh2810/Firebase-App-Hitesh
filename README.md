@@ -221,17 +221,6 @@ Stores:
 
 ---
 
-# 🚀 Future Improvements
-
-* 🌙 Dark Mode
-* ✏️ Edit/Delete Firestore Data
-* 📈 Charts & Analytics
-* 👤 User Profile Management
-* ☁️ Firebase Hosting Deployment
-* 🛡️ Admin Panel
-
----
-
 # 👨‍💻 Author
 
 Hitesh Kumar S
