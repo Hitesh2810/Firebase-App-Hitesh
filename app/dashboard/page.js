@@ -136,10 +136,15 @@ export default function DashboardPage() {
               </div>
 
               <nav className="mt-10 space-y-1 text-sm">
-                {["Overview", "Users Data", "Firestore", "Settings"].map((item, index) => (
+                {["Overview", "Users Data", "Firestore", "Payment"].map((item, index) => (
                   <button
                     key={item}
                     type="button"
+                    onClick={() => {
+                      if (item === "Payment") {
+                        router.push("/payment");
+                      }
+                    }}
                     className={`flex h-11 w-full items-center rounded-md px-4 text-left transition ${
                       index === 1
                         ? "bg-white text-slate-950"
